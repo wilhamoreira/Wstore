@@ -14,11 +14,9 @@ body{
     align-items: center;
 }
 div.conteudo{
-
     background-color: #1E1E1E;
     opacity: 0.6;
     width: 584px;
-    height: 620px;
     border-radius: 12px;    
 }
 .cabecalho{
@@ -93,11 +91,49 @@ button:hover{
     border: 1px solid #2E9DB6;
 }
 .recuperar-senha > a{
-    
+
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
+    margin-bottom: 63px;
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo{
+
+        width: 100vw;
+    }
+    .botoes{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .botoes > button{
+
+        margin: 5px;
+    }
+    .recuperar-senha{
+        
+        margin-bottom: 10px;
+    }
+    /* .container{
+        padding: 2rem 0;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container > div{
+        font-size: 3rem;
+    }
+    .container > p {
+        font-size: 1rem;
+    } */
+
 }
 
